@@ -1,36 +1,36 @@
 // Міняєм фон сторінки
-// let askBackground = prompt('write your background color');
-// // function changeBackground () {
-// //     document.body.style.backgroundColor = askBackground
-// // }
-// changeBackground();
+let askBackground = prompt('write your background color');
+function changeBackground () {
+    document.body.style.backgroundColor = askBackground
+}
+changeBackground();
 
 
 
 
 //Міняєм шрифт
-// let askFont = prompt('write your font')
-// function changeFont() {
-//     document.body.style.fontFamily =  askFont   
-// }
-// changeFont();
+let askFont = prompt('write your font')
+function changeFont() {
+    document.body.style.fontFamily =  askFont   
+}
+changeFont();
 
 
-// Вирівнювання h1
-// let askPosition = prompt('write position of h1');
+//Вирівнювання h1
+let askPosition = prompt('write position of h1');
 
-// function changePosition() {
-//     document.querySelector('h1').style.textAlign = askPosition
-// }
-// changePosition();
+function changePosition() {
+    document.querySelector('h1').style.textAlign = askPosition
+}
+changePosition();
 
-// Міняєм фон для блоку з посиланнями
-// let askBgForLinks = prompt('write your background color');
+//Міняєм фон для блоку з посиланнями
+let askBgForLinks = prompt('write your background color');
 
-// function changeBgForLinks() {
-//     document.querySelector('p').style.backgroundColor = askBgForLinks;
-// }
-// changeBgForLinks();
+function changeBgForLinks() {
+    document.querySelector('p').style.backgroundColor = askBgForLinks;
+}
+changeBgForLinks();
 
 
 
@@ -59,20 +59,20 @@ changeTextColorForLinks();
 
 
 // Міняєм колір, розмір, товщину тексту у елементі div
-// let askTxtColorForDiv = prompt('write yout text color');
-// let askTxtSizeForDiv = prompt('write size number');
-// let askTxtWeightForDiv = prompt('write text size');
+let askTxtColorForDiv = prompt('write yout text color');
+let askTxtSizeForDiv = prompt('write size number');
+let askTxtWeightForDiv = prompt('write text size');
 
-// function changeDiv() {
-//     for(let elem of document.getElementsByTagName('li')) {
-//         elem.style.color = askTxtColorForDiv
-//         elem.style.fontSize = askTxtSizeForDiv + 'px'
-//         elem.style.fontWeight = askTxtWeightForDiv
-//     } 
-// }
-// changeDiv();
+function changeDiv() {
+    for(let elem of document.getElementsByTagName('li')) {
+        elem.style.color = askTxtColorForDiv
+        elem.style.fontSize = askTxtSizeForDiv + 'px'
+        elem.style.fontWeight = askTxtWeightForDiv
+    } 
+}
+changeDiv();
 
 
 // міняєм маркований список 
-// let askTypeForUl = prompt('write type for ul');
-// let ul = document.querySelector('ul').type = askTypeForUl
+let askTypeForUl = prompt('write type for ul');
+let ul = document.querySelector('ul').type = askTypeForUl
